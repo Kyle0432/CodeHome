@@ -10,9 +10,9 @@
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                         data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">码匠社区</span>
+                    <span class="sr-only">CodeHome</span>
                 </button>
-                <a class="navbar-brand" href="/">码匠社区</a>
+                <a class="navbar-brand" href="/">CodeHome</a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -55,7 +55,7 @@
                         </ul>
                     </li>
                     <li th:if="${session.user == null}">
-                        <a th:href="@{https://github.com/login/oauth/authorize(client_id='2859958f9f059979ed3a',redirect_uri=${#httpServletRequest.getServletContext().getAttribute('redirectUri')},scope='user',state=1)}">登录</a>
+                        <a th:href="@{https://github.com/login/oauth/authorize(client_id='429698dbfd073ac0f952',redirect_uri=${#httpServletRequest.getServletContext().getAttribute('redirectUri')},scope='user',state=1)}">登录</a>
                     </li>
 
                 </ul>

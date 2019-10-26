@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @date: 2019/10/22 -  18:09
  */
 @Controller
-public class HelloController {
+public class IndexController {
 
     @GetMapping("/")
     public String hello(@RequestParam(name = "name") String name, Model model){
